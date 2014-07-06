@@ -7,8 +7,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #000000;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="javafx8presenter.Page9">
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafx8presenter.Page9">
    <children>
       <Text fill="WHITE" layoutX="7.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Internationalizing Your FXML Layout">
          <font>
@@ -40,7 +39,7 @@
             <Font size="28.0" />
          </font>
       </Text>
-      <Text fill="WHITE" layoutX="14.0" layoutY="464.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Java SE8 API Documentation">
+      <Text fill="WHITE" layoutX="3.0" layoutY="440.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Java SE8 API Documentation">
          <font>
             <Font size="28.0" />
          </font>
@@ -50,9 +49,19 @@
             <Font size="20.0" />
          </font>
       </Text>
-      <Text fill="WHITE" layoutX="7.0" layoutY="502.0" strokeType="OUTSIDE" strokeWidth="0.0" text="http://docs.oracle.com/javase/8/docs/api/index.html">
+      <Text fill="WHITE" layoutY="465.0" strokeType="OUTSIDE" strokeWidth="0.0" text="http://docs.oracle.com/javase/8/docs/api/index.html">
          <font>
             <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutY="554.0" strokeType="OUTSIDE" strokeWidth="0.0" text="http://docs.oracle.com/javase/tutorial/i18n/intro/index.html">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="3.0" layoutY="521.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Internationalization">
+         <font>
+            <Font size="28.0" />
          </font>
       </Text>
    </children>

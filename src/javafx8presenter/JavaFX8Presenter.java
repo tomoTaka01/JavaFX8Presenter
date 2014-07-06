@@ -31,8 +31,8 @@ public class JavaFX8Presenter extends Application {
             , "page5_fxml.fxml"
             , "page6_ResourceBundle.fxml"
             , "page7_calendar.fxml"
-            , "page8_demo.fxml"
             , "page9_refer.fxml"
+            , "page8_demo.fxml"
     };
     private int pageIx;
     private Group root;
