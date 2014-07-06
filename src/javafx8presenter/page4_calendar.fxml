@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafx8presenter.Page4">
+   <children>
+      <Text fill="WHITE" layoutX="45.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="日本語、ISO8601カレンダー">
+         <font>
+            <Font size="45.0" />
+         </font></Text>
+      <ImageView fitHeight="263.0" fitWidth="209.0" layoutX="65.0" layoutY="107.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/sampleJp.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="263.0" fitWidth="307.0" layoutX="356.0" layoutY="107.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/sampleIso.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="65.0" layoutY="437.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ほかにも以下の３つがあります">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="90.0" layoutY="482.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HijrahChronology">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="90.0" layoutY="513.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MinguoChronology">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="90.0" layoutY="544.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ThaiBuddhistChronology">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

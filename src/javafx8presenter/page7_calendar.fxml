@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #000000;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="javafx8presenter.Page7">
+   <children>
+      <Text fill="WHITE" layoutX="25.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DatePicker">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="25.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="this.datePicker.setChronology(chronology);">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="226.0" fitWidth="560.0" layoutX="25.0" layoutY="231.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/resourceBundle1.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="25.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="setChronologyメソッドで設定">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

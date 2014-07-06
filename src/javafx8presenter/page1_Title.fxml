@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import  javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml" fx:controller="javafx8presenter.Page1">
+    <children>
+        <Text id="p1" fx:id="p1" fill="WHITE" layoutX="50.0" layoutY="100.0" stroke="WHITE" text="How to make" >
+            <font><Font size="32.0"/></font>
+        </Text>
+        <Text id="p2" fx:id="p2" fill="WHITE" layoutX="50.0" layoutY="150.0" stroke="WHITE" text="      your JavaFX Application localized" >
+            <font><Font size="32.0"/></font>
+        </Text>
+        <Text id="p3" fx:id="p3" fill="WHITE" layoutX="250.0"  layoutY="500.0" stroke="WHITE" text="Takayama Tomoyo">
+            <font><Font size="28.0"/></font>
+        </Text>
+    </children>
+    
+</AnchorPane>

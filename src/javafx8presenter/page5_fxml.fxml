@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafx8presenter.Page5">
+   <children>
+      <Text fill="WHITE" layoutX="20.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="プロパティファイル">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="400.0" fitWidth="828.0" layoutX="40.0" layoutY="151.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/labelFXML.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="41.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ロケール毎のプロパティファイルを作成（キー、値を指定）">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="41.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="fxmlファイルでは、適用したい箇所で「%」指定">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffff99" height="16.0" layoutX="227.0" layoutY="388.0" opacity="0.3" smooth="false" stroke="#ffff9c" strokeType="OUTSIDE" strokeWidth="2.0" width="130.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffff99" height="20.0" layoutX="292.0" layoutY="463.0" opacity="0.3" smooth="false" stroke="#ffff9c" strokeType="OUTSIDE" strokeWidth="2.0" width="79.0" />
+   </children>
+</AnchorPane>

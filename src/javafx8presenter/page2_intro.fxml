@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import  javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" fx:id="pane" prefHeight="600.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml" fx:controller="javafx8presenter.Page2">
+    <children>
+        <Text id="p1" fx:id="p1" fill="WHITE" layoutX="100.0" layoutY="100.0" stroke="WHITE" text="自己紹介" >
+            <font><Font size="48.0" /></font>
+        </Text>
+        <Text fx:id="p2" fill="WHITE" layoutX="50" layoutY="200" stroke="WHITE" text="名前" >
+            <font><Font size="32.0" fx:id="x1" /></font>            
+        </Text>
+        <Text fx:id="p3" fill="WHITE" font="$x1" layoutX="250" layoutY="200" stroke="WHITE" text="高山　朋代" />
+        <Text fx:id="p4" fill="WHITE" font="$x1" layoutX="50" layoutY="300" stroke="WHITE" text="職業" />
+        <Text fx:id="p5" fill="WHITE" font="$x1" layoutX="250" layoutY="300" stroke="WHITE" text="フリー（派遣社員）でJavaやってます" />
+        <Text fx:id="p6" fill="WHITE" font="$x1" layoutX="50" layoutY="400" stroke="WHITE" text="Twitter id" />
+        <Text fx:id="p7" fill="WHITE" font="$x1" layoutX="250" layoutY="400" stroke="WHITE" text="tomo_taka01" />
+        <Text fx:id="p8" fill="WHITE" font="$x1" layoutX="50" layoutY="500" stroke="WHITE" text="ブログ" />
+        <Text fx:id="p9" fill="WHITE" font="$x1" layoutX="200" layoutY="500" stroke="WHITE" text="http://www.hatena.ne.jp/tomoTaka/" >
+                        <font><Font size="28.0" /></font>
+        </Text>
+    </children>
+    
+</AnchorPane>
