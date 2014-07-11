@@ -29,17 +29,17 @@
             <Font size="28.0" />
          </font>
       </Text>
-      <Text fill="WHITE" layoutX="90.0" layoutY="482.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HijrahChronology">
+      <Text fill="WHITE" layoutX="90.0" layoutY="482.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HijrahChronology(イスラム暦)">
          <font>
             <Font size="26.0" />
          </font>
       </Text>
-      <Text fill="WHITE" layoutX="90.0" layoutY="513.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MinguoChronology">
+      <Text fill="WHITE" layoutX="90.0" layoutY="513.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MinguoChronology(民国紀元)">
          <font>
             <Font size="26.0" />
          </font>
       </Text>
-      <Text fill="WHITE" layoutX="90.0" layoutY="544.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ThaiBuddhistChronology">
+      <Text fill="WHITE" layoutX="90.0" layoutY="544.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ThaiBuddhistChronology(タイ仏歴)">
          <font>
             <Font size="26.0" />
          </font>

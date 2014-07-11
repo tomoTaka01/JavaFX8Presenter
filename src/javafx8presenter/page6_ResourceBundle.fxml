@@ -10,12 +10,12 @@
 
 <AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafx8presenter.Page6">
    <children>
-      <Text fill="WHITE" layoutX="22.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ResourceBundle">
+      <Text fill="WHITE" layoutX="14.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ResourceBundle">
          <font>
             <Font size="45.0" />
          </font>
       </Text>
-      <ImageView fitHeight="196.0" fitWidth="672.0" layoutX="22.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="196.0" fitWidth="672.0" layoutX="22.0" layoutY="390.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../images/resourceBundle1.png" />
          </image>
@@ -25,12 +25,22 @@
             <Image url="@../images/resourceBundle2.png" />
          </image>
       </ImageView>
-      <Text fill="WHITE" layoutX="22.0" layoutY="353.0" strokeType="OUTSIDE" strokeWidth="0.0" text="日本語、英語のロケールを指定してSceneに追加">
+      <Text fill="WHITE" layoutX="22.0" layoutY="353.0" strokeType="OUTSIDE" strokeWidth="0.0" text="JavaFX8Sample.java">
          <font>
             <Font size="28.0" />
          </font>
       </Text>
       <Text fill="WHITE" layoutX="22.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FXMLLoaderの第２引数でReourceBundleを指定">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="22.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sample.java">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="22.0" layoutY="386.0" strokeType="OUTSIDE" strokeWidth="0.0" text="日本語、英語のロケールを指定してSceneに追加">
          <font>
             <Font size="28.0" />
          </font>

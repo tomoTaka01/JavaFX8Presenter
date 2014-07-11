@@ -8,28 +8,32 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #000000;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="javafx8presenter.Page7">
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafx8presenter.Page7">
    <children>
       <Text fill="WHITE" layoutX="25.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DatePicker">
          <font>
             <Font size="45.0" />
          </font>
       </Text>
-      <Text fill="WHITE" layoutX="25.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="this.datePicker.setChronology(chronology);">
-         <font>
-            <Font size="28.0" />
-         </font>
-      </Text>
-      <ImageView fitHeight="226.0" fitWidth="560.0" layoutX="25.0" layoutY="231.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="226.0" fitWidth="560.0" layoutX="25.0" layoutY="262.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../images/resourceBundle1.png" />
+            <Image url="@../images/resouceBundle3.png" />
          </image>
       </ImageView>
-      <Text fill="WHITE" layoutX="25.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="setChronologyメソッドで設定">
+      <Text fill="WHITE" layoutX="25.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sample.java(setChronologyメソッドで設定)">
          <font>
             <Font size="28.0" />
          </font>
       </Text>
+      <Text fill="WHITE" layoutX="25.0" layoutY="247.0" strokeType="OUTSIDE" strokeWidth="0.0" text="JavaFX8Sample.java">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="53.0" fitWidth="511.0" layoutX="25.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/setCalendar.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>

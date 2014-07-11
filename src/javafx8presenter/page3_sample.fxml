@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.shape.*?>
 <?import javafx.scene.paint.*?>
 <?import javafx.scene.text.*?>
 <?import javafx.scene.image.*?>
@@ -22,6 +23,21 @@
          </font>
       </Text>
       <Text fill="WHITE" layoutX="32.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ラベル、ボタン、メッセージのテキスト表示">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="166.0" layoutX="76.0" layoutY="236.0" opacity="0.0" stroke="#175fe3" strokeType="OUTSIDE" strokeWidth="5.0" width="220.0" />
+      <Label layoutX="88.0" layoutY="407.0" text="Sample.fxml" textFill="#ff9900">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label layoutX="312.0" layoutY="407.0" text="Sample.fxml" textFill="#ff9900">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Text fill="WHITE" layoutX="32.0" layoutY="192.0" strokeType="OUTSIDE" strokeWidth="0.0" text="（同じSample.fxmlを使用）">
          <font>
             <Font size="28.0" />
          </font>
